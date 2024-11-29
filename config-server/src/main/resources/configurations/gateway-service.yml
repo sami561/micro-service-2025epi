@@ -6,6 +6,8 @@ spring:
           lower-case-service-id: true
     discovery:
       enabled: true
+    config:
+      enabled: true
   application:
     name: gateway-service
 server:

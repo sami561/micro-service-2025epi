@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: rdv-service
+  datasource:
+    url: jdbc:mysql://localhost/bd-rdv-epi?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: true
+server:
+  port: 8083
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

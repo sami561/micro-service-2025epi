@@ -5,63 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="792e28b7-0c9d-412d-817a-b7de4ae88762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/sami/microservice/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/com/sami/microservice/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/sami/microservice/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/com/sami/microservice/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/MedecinServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/controller/MedecinController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/entities/Medecin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/repository/MedecinRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/service/IServiceMedecin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/java/com/sami/microservice/medecinservice/service/ServiceMedecin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medecin-service/src/test/java/com/sami/microservice/medecinservice/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/PatientServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/controller/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/entities/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/repository/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/service/IServicePatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice/service/ServicePatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/test/java/com/sami/microservice/patientservice/PatientServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/sami/microservice/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/medecin-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/patient-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/rdv-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/com/sami/microservice/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/Model/Medecin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/Model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/RdvServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/clients/MedecinRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/clients/PatientRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/controller/RdvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/entites/Rdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/repository/RdvRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/service/IServiceRdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/java/com/sami/microservice/rdvservice/service/ServiceRdv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rdv-service/src/test/java/com/sami/microservice/rdvservice/RdvServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medecin-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/medecin-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,10 +112,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.MedecinServiceApplication.executor": "Run",
     "Spring Boot.PatientServiceApplication.executor": "Run",
+    "Spring Boot.RdvServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
     "kotlin-language-version-configured": "true",
@@ -133,6 +136,11 @@
       <recent name="$PROJECT_DIR$/patient-service/src/main/java/com/sami/microservice/patientservice" />
       <recent name="$PROJECT_DIR$/medecin-service./src/main/java/com/sami/microservice/medecinservice" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sami.microservice.rdvservice.controller" />
+      <recent name="com.sami.microservice.rdvservice.service" />
+      <recent name="com.sami.microservice.rdvservice.repository" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -147,6 +155,13 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="medecin-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sami.microservice.medecinservice.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sami.microservice.configserver.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RdvServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rdv-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sami.microservice.rdvservice.RdvServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -200,6 +222,11 @@
       <workItem from="1732215535274" duration="2725000" />
       <workItem from="1732218279538" duration="9000" />
       <workItem from="1732218317924" duration="155000" />
+      <workItem from="1732218477780" duration="465000" />
+      <workItem from="1732218967279" duration="65000" />
+      <workItem from="1732627778458" duration="2099000" />
+      <workItem from="1732640359322" duration="2584000" />
+      <workItem from="1732814301777" duration="9508000" />
     </task>
     <servers />
   </component>
